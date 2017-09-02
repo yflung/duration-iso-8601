@@ -1,0 +1,28 @@
+{
+  "name": "duration-iso-8601",
+  "version": "1.0.5",
+  "description": "Converting ISO 8601 Duration(PnYnMnDTnHnMnS syntax)",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yflung/duration-iso-8601"
+  },
+  "keywords": [
+    "duration",
+    "iso 8601",
+    "iso8601",
+    "PnYnMnDTnHnMnS",
+    "youtube duration",
+    "youtube api duration",
+    "video duration",
+    "video length"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^20.0.4"
+  }
+}
