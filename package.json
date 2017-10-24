@@ -1,6 +1,6 @@
 {
   "name": "duration-iso-8601",
-  "version": "1.0.5",
+  "version": "1.1.0",
   "description": "Converting ISO 8601 Duration(PnYnMnDTnHnMnS syntax)",
   "main": "index.js",
   "scripts": {
