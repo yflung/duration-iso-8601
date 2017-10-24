@@ -15,7 +15,7 @@ ISO 8601 Duration(PnYnMnDTnHnMnS syntax)
 
 **Output:**  
 Object  
-{year: Number, month: Number, day: Number, hour: Number, minute: Number, second: Number}  
+{ year: Number, month: Number, day: Number, hour: Number, minute: Number, second: Number }  
 Property value will be undefined if there is no value  
 Return null if the input is invalid
 
@@ -42,10 +42,10 @@ import {convertDuration, convertToSecond, convertYouTubeDuration} from 'duration
 // convertDuration(String)
 
 console.log(convertDuration('P1Y2M3DT4H5M6S'));
-// return {year: 1, month: 2, day: 3, hour: 4, minute: 5, second: 6}
+// return { year: 1, month: 2, day: 3, hour: 4, minute: 5, second: 6 }
 
 console.log(convertDuration('P1Y30DT15M39S'));
-// return {year: 1, month: undefined, day: 30, hour: undefined, minute: 15, second: 39}
+// return { year: 1, month: undefined, day: 30, hour: undefined, minute: 15, second: 39 }
 
 console.log(convertDuration('ieurht834'));
 // return null
